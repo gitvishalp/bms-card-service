@@ -1,11 +1,11 @@
 server:
-   port: 8080
+   port: 8083
    servlet:
-      context-path: /v1/user
+      context-path: /v1/card
       
 spring:
   application:
-    name: bms-user-service
+    name: bms-card-service
     
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
